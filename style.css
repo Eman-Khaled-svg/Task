@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    margin-left: auto;
+  }
+  i{
+    opacity: 0;
+    font-size: 30px;
+    margin-left: 20px;
+  }
+  .sidebar a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .sidebar {
+    background-color: #f05050;
+    color: #fff;
+    width: 280px;
+    padding-top: 20px;
+ position: fixed;
+    height:100%;
+    z-index: 3;
+    /* overflow-x: hidden; */
+       display: block;
+  }
+  
+  .sidebar h1 {
+    margin-top: 0;
+    padding-bottom: 100px;
+    margin-left: 30px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    color: #fff;
+    margin-left: 30px;
+  }
+  
+  .sidebar li a {
+    display: block;
+    padding: 10px 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .sidebar li a:hover{
+    background-color: #fff;
+    color: black;
+  }
+  .sidebar i{
+    overflow: hidden;
+  }
+  .content{
+    margin-top: 135px;
+    margin-left:280px;
+    /* border: 1px solid black; */
+    width: 100%;
+
+  }
+  .content h1{
+    font-size: 48px;
+    margin-left: 20px;
+  }
+  .red-text{
+    color: #f44336;
+    font-size: 48px;
+    margin-left: 20px;
+  }
+.content-hr{
+    width: 10%;
+    border: 5px red solid;
+    margin: 40px;
+    border-radius:5px ;
+  }
+.imgs{
+    padding: 20px;
+    width: 100%;
+    /* box-sizing: inherit; */
+    display: grid;
+    grid-template-columns: repeat(2,minmax(100px,1fr));
+    gap: 10px;
+}
+p{
+    margin-left: 40px;
+}
+.showcase{
+    width: 90%;
+}
+.showcase img{
+    width: 100%;
+    /* margin: 10px; */
+    opacity: 0.7;
+}
+.imgs img:hover{
+    opacity: 1;
+}
+
+.services h1{
+    color: red;
+}
+.services-hr{
+    width: 10%;
+    border: 5px red solid;
+    margin: 20px;
+    border-radius:5px ;
+}
+.services p{
+    line-height: 1.5;
+    color: #000;
+    font-weight:500 ;
+    word-break: break-all;
+}
+.designer h1{
+    color: red;
+}
+.designer-hr{
+    width: 10%;
+    border: 5px red solid;
+    margin: 20px;
+    border-radius:5px ;
+}
+.designer p{
+    line-height: 1.8;
+}
+.designers{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    background-color: #fff;
+    width: 95%;
+    margin: 20px;
+}
+.designers img{
+    width: 100%;
+}
+.card{
+    width: 100%;
+    /* border: 1px solid black; */
+    margin: 10px;
+    background-color: #f1f1f1;
+    /* background-color: rgba(219, 215, 215, 0.979); */
+    text-align: center;
+}
+.card h1{
+    text-align: left;
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 20px;
+    margin-left:10px ;
+}
+.card h3{
+    font-size: 20px;
+    color: #00000041;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-left: 10px;
+}
+.card p{
+    text-align: left;
+    margin-left: 10px;
+font-weight: 500;
+
+}
+.packege h1{
+    color: red;
+}
+.packege-hr{
+    width: 10%;
+    border: 5px red solid;
+    margin: 20px;
+    border-radius:5px ;
+}
+.packege p{
+    font-weight: 500;
+    line-height: 1.5;
+    word-spacing: 1.5;
+}
+.prices{
+    /* background-color: #f1f1f1; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+.prices ul{
+    list-style: none;
+    /* color: #fff; */
+    font-size: 20px;
+text-align: center;
+}
+.prices ul li {
+    padding:64px 0;
+
+}
+.basic{
+    width: 50%;
+    margin-right: 30px;
+    background-color: #f1f1f1;
+}
+.basic .basic{
+    padding:40px;
+    color: #fff;
+    background-color: #616161;
+    width:100%;
+    font-size: 40px;
+    
+
+}
+.prices ul li{
+    padding: 20px 16px;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+.basic .li{
+    border: none;
+    /* padding-bottom: 5px; */
+    font-size: 40px;
+}
+.prices ul li a{
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.prices .price{
+    border-bottom: none;
+    font-size: 35px;
+}
+.prices a:hover{
+    background-color: #000;
+    cursor: pointer;
+    color: #fff;
+}
+.pro{
+    width: 50%;
+    background-color: #f1f1f1;
+}
+.pro .perimum{
+    background-color: #f44336;
+    color: #fff;
+    font-size: 40px;
+    padding: 40px;
+}
+.pro .btn{
+    background-color: #f44336;
+    color: #fff;
+}
+.contant h1{
+    color: red;
+}
+.contant hr{
+    width: 5%;
+    border:  5px red solid;
+    border-radius: 20px;
+    margin: 20px;
+}
+.text{
+    /* border: 1px solid black; */
+    /* width: 256%; */
+    margin: auto 10px;
+}
+.section{
+    padding: 12px 24px;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 300px;
+}
+form{
+    padding: 20px;
+}
+form input{
+width: 400%;
+padding: 8px;
+    display: block;
+    border: none;
+    border: 1px solid #ccc;
+}
+
+form .form-btn{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    /* border: 1px solid black; */
+    padding: 12px 24px;
+    width: 400%;
+    text-align: center;
+    font-size: 20px;
+}
+.form-btn:hover{
+    background-color: #616161;
+    color: #fff;
+}
+@media  (max-width:768px) {
+    .sidebar{
+        display: flex;
+        width: 100%;
+        height: 20%;
+    }
+    .sidebar ul{
+        display: none;
+
+    }
+    .content{margin-left: 0;}
+    .imgs{grid-template-columns: 1fr;}
+    .designer{width: 100%;}
+    .packege{width: 100%;}
+    .contant{width: 37%;}
+    .contant  hr{
+        width: 30%;
+    }
+    .sidebar i{
+        overflow: visible;
+    }
+
+    i{
+        opacity: 1;
+    }
+    .designers{
+        display: block;
+    }
+    .prices{
+        display: block;
+    }
+    .basic{
+        width: 100%;
+    }
+    .pro{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .contant{
+        width:38% ;
+    }
+    .form input{
+        width: 100%;
+    }
+    .text{
+        /* width: 100%; */
+        width: 256%;
+        margin: auto 10px;
+    }
+}
+   
